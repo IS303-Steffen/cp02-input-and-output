@@ -1,8 +1,10 @@
-# optional stuff that will clear the window each time you run it.
 import os
 import platform
 
 def clear_screen():
+    """
+    Clears the terminal screen to make it easier to follow along with code.
+    """
     if platform.system() == 'Windows':
         os.system('cls')
     else:
@@ -10,18 +12,20 @@ def clear_screen():
 
 clear_screen()
 
-###########################
-# START READING HERE
-###########################
-
+# ======
+# REVIEW
+# ======
 
 '''
-In chapter 3 we went over documentation, variables and data types
+OVERVIEW
+--------
+Previously, we went over documentation, variables and data types.
+This is a very brief review of that.
 '''
 
-# Practice:
-# make a variable to store your age, then a variable to store a sibling or parents age.
-# subtract the two and print it out.
+# 1. REVIEW
+# Make a variable to store your age, then a variable to store a sibling or
+# parents age. Subtract the two and print it out.
 my_age = 32
 brothers_age = 25
 
