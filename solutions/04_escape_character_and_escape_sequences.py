@@ -49,3 +49,11 @@ Prof Steffen's favorite slash looks like this: \
 '''
 
 print('Prof Steffen\'s favorite slash looks like this: \\')
+
+
+# 4. RAW STRING LITERALS
+# Put r before the start of your string and then try and use some escape
+# sequences. Notice that it will print out what you literally typed and ignore
+# the escape characters.
+print(r" No matter if i put \n or \\ or \t it will just literally print what I put.")
+

@@ -21,6 +21,8 @@ Bonus method:
 # 1. CONCATENATION USING +
 # Print out first_name and last_name with a space between them. Use + to
 # concatenate
+first_name = "Jimmy"
+last_name = "John"
 
 
 # 2. CONCATENATION USING COMMAS IN PRINT

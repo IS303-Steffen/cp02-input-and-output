@@ -47,3 +47,11 @@ My favorite foods:
 '''
 Prof Steffen's favorite slash looks like this: \
 '''
+
+
+
+# 4. RAW STRING LITERALS
+# Put r before the start of your string and then try and use some escape
+# sequences. Notice that it will print out what you literally typed and ignore
+# the escape characters.
+
